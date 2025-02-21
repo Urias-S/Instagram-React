@@ -1,6 +1,11 @@
 import Navbar from "./Navbar";
-export default function App () {
+import Body from "./Body";
+export default function App() {
   return (
-    <Navbar />
+    <>
+      <Navbar />
+      <Body />
+    </>
+
   );
 }
