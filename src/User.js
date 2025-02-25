@@ -9,9 +9,18 @@ export default function User() {
       return;
     }
 }
+  const [image, setImage] = React.useState('assets/img/catanacomics.svg');
+  const changeUserImage = () => {
+    let newImage = prompt('Qual o endereço da nova imagem?');
+    if (newImage) {
+      setImage(newImage);
+    } else {
+      return;
+    }
+  }
   return (
     <div className="usuario">
-      <img src="assets/img/catanacomics.svg" />
+      <img onClick = {changeUserImage} src={image}/>
       <div className="texto">
         <span>
           <strong>{name}</strong>
