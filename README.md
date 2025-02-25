@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Instagram Desktop (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Uma versão de **Instagram** para desktop feita com **React** que oferece funcionalidades como alterar nome, foto de perfil, curtir e salvar posts.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+![image](https://github.com/user-attachments/assets/bc94a80f-6474-4b69-9577-6126105ac041)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📝 Sobre o Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este é um projeto de uma versão simplificada do **Instagram** para a versão **Desktop**, onde você pode:
 
-### `npm test`
+- **Alterar seu nome** de forma dinâmica.
+- **Alterar sua foto de perfil** em tempo real.
+- **Curtir posts** e interagir com o conteúdo.
+- **Salvar posts** para visualização posterior.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tudo isso é implementado utilizando **React**, proporcionando uma experiência de uso fluida e moderna, sem sair do ambiente desktop.
 
-### `npm run build`
+## 🚀 Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Alteração Dinâmica do Nome**: Modifique seu nome no perfil sempre que quiser e veja as mudanças instantaneamente.
+- **Alteração Dinâmica da Foto de Perfil**: Carregue sua foto diretamente do computador e altere no aplicativo com facilidade.
+- **Curtir Posts**: Marque seu conteúdo favorito e interaja com o feed.
+- **Salvar Posts**: Armazene posts para visualização futura e não perder nenhum conteúdo importante.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React.js**: Framework utilizado para construir a interface do usuário.
+- **React Hooks**: Para gerenciar o estado e funcionalidades interativas.
+- **Styled Components**: Para estilização dinâmica e modular.
+- **React Router**: Navegação entre diferentes componentes.
